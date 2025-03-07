@@ -1,0 +1,4 @@
+openai
+torch
+transformers==4.46.1
+transformer_utils

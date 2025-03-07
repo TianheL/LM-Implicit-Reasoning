@@ -1,0 +1,39 @@
+### model
+model_name_or_path: ../model/gpt2-rope
+
+### method
+stage: sft
+do_train: true
+finetuning_type: full
+
+### dataset
+dataset: example-5step-forward-train
+template: math
+eval_dataset: example-5step-forward-test
+cutoff_len: 50
+max_samples: 10000000
+overwrite_cache: true
+preprocessing_num_workers: 16
+
+### output
+output_dir: saves/gpt2-rope-5step-forward/full/sft
+logging_steps: 100
+save_steps: 2000
+plot_loss: true
+overwrite_output_dir: true
+
+### train
+per_device_train_batch_size: 800
+gradient_accumulation_steps: 1
+learning_rate: 1.0e-4
+num_train_epochs: 1000.0
+lr_scheduler_type: constant_with_warmup
+warmup_steps: 2000 
+weight_decay: 0.1
+bf16: true
+ddp_timeout: 180000000
+
+### eval
+per_device_eval_batch_size: 800
+eval_strategy: steps
+eval_steps: 100
