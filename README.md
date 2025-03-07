@@ -55,7 +55,7 @@ pip install -e ".[torch,metrics]"
 ```
 
 ### Data Preparation
-Please refer to [sample data](https://github.com/TianheL/LLM-Implicit-Reasoning/tree/main/src/LLaMA-Factory-main/data/example-5step-forward) for checking the details about the format of dataset files. We also provide a generation script to generate more data according to your needs.
+Please refer to [sample data](https://github.com/TianheL/LM-Implicit-Reasoning/tree/main/src/LLaMA-Factory-main/data/example-5step-forward) for checking the details about the format of dataset files. We also provide a generation script to generate more data according to your needs.
 1. Use `src/data/gen.ipynb` to generate data.
 1. Use `src/data/convert_dataset.ipynb` to convert data to training format.
 
@@ -119,7 +119,7 @@ If you have any problems, please contact
 
 If our paper or related resources prove valuable to your research, we kindly ask for citation. 
 
-<a href="https://github.com/TianheL/LLM-Implicit-Reasoning"><img src="https://img.shields.io/github/stars/TianheL/LLM-Implicit-Reasoning?style=social&label=LLM-Implicit-Reasoning" alt="GitHub Stars"></a>
+<a href="https://github.com/TianheL/LM-Implicit-Reasoning"><img src="https://img.shields.io/github/stars/TianheL/LM-Implicit-Reasoning?style=social&label=LM-Implicit-Reasoning" alt="GitHub Stars"></a>
 
 ```
 @inproceedings{xxx}
