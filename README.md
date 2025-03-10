@@ -122,7 +122,7 @@ If our paper or related resources prove valuable to your research, we kindly ask
 <a href="https://github.com/TianheL/LM-Implicit-Reasoning"><img src="https://img.shields.io/github/stars/TianheL/LM-Implicit-Reasoning?style=social&label=LM-Implicit-Reasoning" alt="GitHub Stars"></a>
 
 ```
-@inproceedings{xxx}
+@misc{to be updated}
 ```
 
 ## Acknowledgement
