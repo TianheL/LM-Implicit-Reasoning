@@ -1,5 +1,5 @@
 # LM-Implicit-Reasoning
-Code for the Paper "[Implicit Reasoning in Transformers is Reasoning through Shortcuts](https://arxiv.org/abs/xxx)".
+Code for the Paper "[Implicit Reasoning in Transformers is Reasoning through Shortcuts](https://arxiv.org/abs/2503.07604)".
 
 **TL;DR:** This paper finds LMs can perform stepwise implicit reasoning if trained on fixed pattern data, yet such a capability is through shortcuts and cannot generalize. Notably, we discover **"Variable as Subtrahend Plight"**. We find that when there are multiple expressions containing variables as the subtrahends in a problem, the LMs usually answers incorrectly. However, if there are no such expressions, the model can easily provide the correct answer.
 <p align="center">
@@ -122,7 +122,15 @@ If our paper or related resources prove valuable to your research, we kindly ask
 <a href="https://github.com/TianheL/LM-Implicit-Reasoning"><img src="https://img.shields.io/github/stars/TianheL/LM-Implicit-Reasoning?style=social&label=LM-Implicit-Reasoning" alt="GitHub Stars"></a>
 
 ```
-@misc{to be updated}
+@misc{lin2025implicitreasoningtransformersreasoning,
+      title={Implicit Reasoning in Transformers is Reasoning through Shortcuts}, 
+      author={Tianhe Lin and Jian Xie and Siyu Yuan and Deqing Yang},
+      year={2025},
+      eprint={2503.07604},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2503.07604}, 
+}
 ```
 
 ## Acknowledgement
