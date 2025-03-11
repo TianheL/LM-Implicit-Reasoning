@@ -113,7 +113,7 @@ Use `src/analysis/logit_lens.ipynb` to see where the model computes and stores i
 ## Contact
 
 If you have any problems, please contact 
-[Tianhe Lin](mailto:thlin20@fudan.edu.cn).
+[Tianhe Lin](mailto:thlin20@fudan.edu.cn) and [Jian Xie](mailto:jianx0321@gmail.com).
 
 ## Citation Information
 
